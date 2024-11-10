@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Compliance Service</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white text-center">
+                <h2>Compliance Service</h2>
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="ssts_file">File SSTS (.docx):</label>
+                        <input type="file" name="ssts_file" accept=".docx" class="form-control-file">
+                    </div>
+                    <div class="form-group">
+                        <label for="hmi_file">File HMI (.docx):</label>
+                        <input type="file" name="hmi_file" accept=".docx" class="form-control-file">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Run</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
