@@ -4,5 +4,5 @@
 
 ## Структура
 
-* inference.ipynb - нотбук для inference(нужны веса?[https://drive.google.com/file/d/1kQfUAqC50Q0p1JlHCsIEQ8cCeGMGBIqF/view?usp=drive_link])
+* FULL_LAUNCH.ipynb - нотбук для inference(нужны веса?[https://drive.google.com/file/d/1kQfUAqC50Q0p1JlHCsIEQ8cCeGMGBIqF/view?usp=drive_link]) и датасет
 * project - проект flask веб интерфейс для проекта
